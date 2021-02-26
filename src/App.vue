@@ -2,16 +2,19 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <VueLearn message="文档不太行啊"/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import VueLearn from "@/components/VueLearn";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    VueLearn
   }
 }
 </script>
